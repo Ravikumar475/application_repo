@@ -5,9 +5,9 @@ pipeline {
   agent any
   environment {
     AWS_ACCOUNT_ID = '411241853052'
-    AWS_REGION = 'ap-south-1'
+    AWS_REGION = 'eu-west-1'
     AWS_CA_DOMAIN = 'my-domain'
-    AWS_CA_REPO = 'python-projects'
+    AWS_CA_REPO = 'my-repository'
     AWS_STACK_NAME = 'Consumer'
     CONTAINER_NAME = 'application'
     CREDENTIALS_ID = 'AWS'
